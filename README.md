@@ -32,9 +32,9 @@ You can use this example below to initiate your first fights :
 
 
 include_once("SpaceArena.php"); <br />
-$arena = new SpaceArena();
-$arena->enlistMonsters([new RadScorpion(), new SuperMutant(), new RadScorpion()]);
-$arena->enlistSpaceMarines([new TacticalMarine("Joe"), new AssaultTerminator("Abaddon"), new TacticalMarine("Rose")]);
-$arena->fight();
-$arena->enlistMonsters([new SuperMutant(), new SuperMutant()]);
-$arena->fight();
+$arena = new SpaceArena(); <br />
+$arena->enlistMonsters([new RadScorpion(), new SuperMutant(), new RadScorpion()]); <br />
+$arena->enlistSpaceMarines([new TacticalMarine("Joe"), new AssaultTerminator("Abaddon"), new TacticalMarine("Rose")]); <br />
+$arena->fight(); <br />
+$arena->enlistMonsters([new SuperMutant(), new SuperMutant()]); <br />
+$arena->fight(); <br />
