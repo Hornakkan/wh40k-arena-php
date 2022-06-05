@@ -31,7 +31,7 @@ Where [team’s name] will be replaced by “monsters” or “spaceMarines”.
 You can use this example below to initiate your first fights : 
 
 
-include_once("SpaceArena.php");
+include_once("SpaceArena.php");\n
 $arena = new SpaceArena();
 $arena->enlistMonsters([new RadScorpion(), new SuperMutant(), new RadScorpion()]);
 $arena->enlistSpaceMarines([new TacticalMarine("Joe"), new AssaultTerminator("Abaddon"), new TacticalMarine("Rose")]);
